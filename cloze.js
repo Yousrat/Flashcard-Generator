@@ -1,21 +1,21 @@
 var fs = require("fs");
 
 var ClozeCard=function(text,cloze){
-	this.text = text;
-	this.cloze= cloze;
+		this.text = text;
+		this.cloze= cloze;
 	
-	this.fullText = function (text,cloze){
-		if(!cloze){
-			console.log("Deletion text was not entered")
+		this.fullText = function (text,cloze){
+			if(!cloze){
+				console.log("Deletion text was not entered")
+			}
+			if(!text){
+				console.log("Partial text was not entered")
+			}
+			else{
+		        fs.appendFile("fulllog.txt", "," + text +" " + cloze);
+			}
 		}
-		if(!text){
-			console.log("Partial text was not entered")
-		}
-		else{
-	        fs.appendFile("fulllog.txt", "," + text +" " + cloze);
-		}
-		}
-		}
+		
 	this.partialText = function (text){
 	        fs.appendFile("partiallog.txt", "," + text);
 		}
@@ -25,6 +25,7 @@ var ClozeCard=function(text,cloze){
 }
 
 module.exports = ClozeCard;
+//module.exports = ClozeCard;
 
 
 // this.storeCard = function (text,cloze){
