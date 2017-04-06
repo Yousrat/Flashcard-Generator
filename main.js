@@ -129,6 +129,9 @@ var storeCloze= function(){
   var clozeFlashCard = function(text,deletion){
       var clozeCard = new cloze(text,deletion);
       clozeCard.fullText(text,deletion);
+      clozeCard.partialText(text);
+      clozeCard.deletion(deletion);
+
       console.log('the full text you logged to the text file is: '+ text + " " +deletion);
   }
 
@@ -139,7 +142,7 @@ fs.readFile("log.txt", "utf8", function(error, data) {
 }
 
 var readCloze = function(){
-fs.readFile("clozelog.txt", "utf8", function(error, data) {
+fs.readFile("fulllog.txt", "utf8", function(error, data) {
           console.log("these are all stored cloze flashcards: "+data);
           });
 }

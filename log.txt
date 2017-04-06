@@ -1,1 +1,1 @@
-front:hany,Back:danny,front:hany,Back:danny,front:who am i ?,Back:i am yousra,front:who am i ?,Back:i am yousra,front:"what is the name of the president of egypt?",Back:"Al sisi",front:"how many fingers in one hand?" "five",Back:"five"
+front:hany,Back:danny,front:hany,Back:danny,front:who am i ?,Back:i am yousra,front:who am i ?,Back:i am yousra,front:"what is the name of the president of egypt?",Back:"Al sisi",front:"how many fingers in one hand?" "five",Back:"five",front:"how are you today",Back:"fine thank you"
