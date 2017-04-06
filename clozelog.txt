@@ -1,1 +1,1 @@
-,front:the president of usa is...,Back:donald trump,front:the president of egypt is...,Back:Alsisi
+,Text:the president of egypt is,Cloze:alsisi,Text:the president of egypt is,Cloze:alsisi
