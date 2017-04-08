@@ -1,1 +1,1 @@
-,Text:the president of egypt is,Cloze:alsisi,Text:the president of egypt is,Cloze:alsisi,"aL SISI","testing deleted text"
+Text:the president of egypt is,Cloze:alsisi,Text:the president of egypt is,Cloze:alsisi,"aL SISI","testing deleted text"

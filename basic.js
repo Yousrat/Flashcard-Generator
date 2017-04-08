@@ -1,9 +1,10 @@
 
+//use fs npm package to read and write to text files
 var fs = require("fs");
 
+// define constructor that will store and retrieve data for basic flashcards
 var BasicCard =function(front,back){
-	//this.cardFronts = [];
-  	//this.cardBacks = [];
+	
 	  	this.front = front;
 	  	this.back = back;
 	  	
@@ -29,6 +30,8 @@ var BasicCard =function(front,back){
 	        fs.appendFile("backlog.txt", "," + back);
 		}
 }
+
+// make constructor available so it can be called from another js file
 
 module.exports = BasicCard;
 
